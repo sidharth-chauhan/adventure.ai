@@ -1,0 +1,40 @@
+# Dependencies
+node_modules/
+**/node_modules/
+
+# Expo & React Native Web
+.expo/
+**/.expo/
+dist/
+**/dist/
+web-build/
+**/web-build/
+expo-env.d.ts
+
+# Environment variables & secrets
+.env
+.env.*
+**/.env
+**/.env.*
+!.env.example
+
+# TypeScript & Build outputs
+build/
+*.tsbuildinfo
+
+# Logs
+npm-debug.*
+yarn-debug.*
+yarn-error.*
+*.log
+
+# macOS & Editor files
+.DS_Store
+**/.DS_Store
+.vscode/
+.idea/
+
+# Local Docker volumes or temp archives
+mongo_data/
+ollama_data/
+*.zip
